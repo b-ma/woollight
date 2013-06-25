@@ -1,0 +1,20 @@
+
+body {
+    background-color: #242424;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Lucida Grande', Helvetica, sans-serif;
+    font-size: 6em;
+    border-bottom: 1px solid #565656;
+    padding: 30px 5%;
+}
+
+button {
+    display: block;
+    width: 90%;
+    line-height: 1.4em;
+    margin: 1em auto;
+    font-size: 5em;
+}
