@@ -1,0 +1,19 @@
+{
+  "name": "woollight",
+  "version": "0.0.0",
+  "description": "trigger a wool ligth from a tablet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "b-ma",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "e4dd40842ed91e501ac840ef78dba81289917492",
+  "dependencies": {
+    "mime": "~1.2.9",
+    "underscore": "~1.4.4",
+    "socket.io": "~0.9.14"
+  }
+}
