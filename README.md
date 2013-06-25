@@ -1,30 +1,30 @@
-TALES OF A "LAMPE EN LAINE"
+TALES OF A "WOOLLIGHT"
 ======================================================
 
-TODO :
-make it simple
-write about each steps
+keep it "KISS"
 
-- wifi         [DONE]
+## TODO :
 
-- clean all the mess in that directory
+    - order radio elements
 
-- remove the dependancy with the raspberry to develop locally
-    -> remove *
-        * use SockJS : https://github.com/sockjs/sockjs-client/blob/master/lib/sockjs.js
-    -> develop the server and the UI
-        * inject a fake object with a defined API cloning the API should have the gpio part
-        * use the simple server template from NODE_JS in Action
-    -> DO NOT OVER-INGENEER ! (keep it simple an...)
+## UPGRADE :
 
-- deploy on the raspberry
-- change the injected object to trigger gpio admin
-- configure ftpsync to upload a given file
-- deployement
-- node server
-- electronic
+    - write the mock._unexport to test it (destroy file or ...) => recheck
+    - refactor gpio :
+        call mock or real object through config
+        create a real stad-alone module
+    - implement backbone to manage the front
+    - increase logging to monitor the whole app => create a log module
+    - find a way to modulate the voltage
+        http://txapuzas.blogspot.fr/2009/12/paperdimmerldr-control-de-potencia-de.html
+        the whole electronic module must be unobstrusive and must
+    - pass all the eletronic stuff through a radio controlled arduino
+    - trigger several lamps
+    - [design] css3 animation in the front end (random discs)
 
-Enjoy !
+## FUN :
+
+- make a video
 
 
 The wifi experience
@@ -59,7 +59,11 @@ $ nano /etc/network/interfaces
 - finally make it work with a static ip is not so hard...
 
 
+The server side
+-------------------------------------------------------
 
+Electronics
+-------------------------------------------------------
 
 
 
